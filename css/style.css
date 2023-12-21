@@ -434,6 +434,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.form-subsc-label {
+  display: flex;
+}
 .subsc-label-input {
   width: 264;
   height: 40;
@@ -447,19 +450,17 @@ img {
   color: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 input::placeholder {
   color: #ffffff;
 }
 .form-subscrible-btn {
-  min-width: 165;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -638,7 +639,7 @@ input::placeholder {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-privacy-box.visually-hidden:checked + .icon-box-yes {
+.user-privacy-box:checked + .user-privacy-captutre > .icon-box-yes {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
