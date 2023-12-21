@@ -434,12 +434,9 @@ img {
   display: flex;
   gap: 24px;
 }
-.form-subsc-label {
-  display: flex;
-}
 .subsc-label-input {
-  width: 264;
-  height: 40;
+  width: 264px;
+  height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 4px;
